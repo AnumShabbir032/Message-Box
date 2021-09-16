@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto_Condensed" ;
+    font-weight:  300;
+    line-height: 1.5;
+    overflow: hidden;
+}
+.wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-section{
+    flex: 1;
+    background-color: #eeeeee;
+}
+.IMg{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: url(../pass\ the\ message/img) no-repeat bottom center ;
+    height: 100vh;
+    text-align: center;
+}
+.right-section{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, #cba22dad  0%, #ffffff 100%);
+}
+p{
+    margin: 10px;
+    font-size: 24px;
+    text-align: center;
+
+  
+}
+h1{
+    font-weight: 400;
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+input {
+    margin-bottom: 1.3rem;
+    width: 100%;
+    border-radius: 24px;
+    background: #ffffff;
+    border: 1px solid #cea166;
+    color: rgb(15, 15, 15);
+    padding: 0.5rem 1rem;
+    line-height: 1.3rem;
+    text-transform: none;
+    outline: none;
+}
+
+button{    
+    padding: 0.7rem 13rem;
+    height: 2.7rem;
+    display: block;
+    border: 0;
+    border-radius: 24px;
+    font-weight: 500;
+    background: #d2a934;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+    outline: none;
+}
